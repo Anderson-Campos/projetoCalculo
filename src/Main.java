@@ -15,5 +15,7 @@ public class Main {
         int res = num1 + num2;
 
         System.out.println("A soma dos valor: " + num1 + " e " + num2 + " é igual a " + res);
+
+        soma.close();
     }
 }
